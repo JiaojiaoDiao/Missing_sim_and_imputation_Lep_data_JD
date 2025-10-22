@@ -94,34 +94,6 @@ Each file includes Macro-F1 results for multiple missingness levels (5–50%), e
 
 ---
 
-## 🧩 Dependencies
-
-**R packages used:**
-`tidyverse`, `dplyr`, `missForest`, `ape`, `picante`, `PVR`, `TDIP`, `writexl`, `purrr`, and others (see code header for full list).
-Custom functions are sourced from:
-
-```
-Functions/
-├─ DataHandling_Functions.R
-├─ Imputation_Functions.R
-├─ Phylo_Functions.R
-├─ Simpute_Functions.R
-└─ Additional_Functions.R
-```
-
----
-
-## 🧾 Citation
-
-If you use this workflow, please cite the corresponding data and method sources:
-
-* **Ries et al. (2022)** – LepTraits dataset
-* **Kawahara et al. (2023)** – Feeding and specialization traits
-* **TaxPaint** (Matgend, GitHub)
-* **MissForest** (Stekhoven & Bühlmann, 2012, *Bioinformatics*)
-
----
-
 ## 📅 Version History
 
 * **v2025-10-20 (JD revision)**
