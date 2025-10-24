@@ -127,7 +127,7 @@ datasets_with_missing_data <- simulate_missingness(
 missing_percentage_list <- lapply(datasets_with_missing_data, calculate_missing_percentage)
 missing_percentage_list
 
-# # Convert categorical traits to factor
+# # Convert numeric traits to factor
 l_missingData1 <- convert_all_numeric_to_factor(datasets_with_missing_data, traits)
 # l_missingData1 <- convert_numeric_to_factor(datasets_with_missing_data, traits)
 
@@ -822,5 +822,6 @@ df_results_MissF_phylo <- f1_df_3
 write.csv(df_results_taxpaint, "Result/Seed_5_method1.csv", row.names = FALSE)
 write.csv(df_results_MissF_nophylo, "Result/Seed_5_method2.csv", row.names = FALSE)
 write.csv(df_results_MissF_phylo, "Result/Seed_5_method3.csv", row.names = FALSE)
+
 
 
