@@ -21,7 +21,7 @@ Each replicate (`Seed 1`–`Seed 5`) follows the same four-step structure:
    * Load the complete Lepidoptera dataset (`Complete_Leptraits_for_analysis_no_dummy.tsv`)
    * Prune the reference phylogenetic tree (`Leptree.newick`)
    * Simulate missingness (MCAR, 5–50%)
-   * Convert categorical variables to factors (`convert_all_numeric_to_factor`)
+   * Convert numeric variables to factors (`convert_all_numeric_to_factor`)
    * Generate predictor lists and append phylogenetic eigenvectors
 
 2. **CASE 1 – TaxPaint**
